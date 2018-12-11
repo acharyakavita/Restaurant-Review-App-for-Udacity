@@ -382,7 +382,7 @@ nav h1 a {
   }
 
   .filter-options select {
-    width :47%;
+    width :80%;
   }
 
   #reviews-list li {
@@ -392,6 +392,17 @@ nav h1 a {
     padding: 2%;
   }
   
+  .filter-options {
+    height:110px;
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #neighborhoods-select,
+  #cuisines-select {
+    margin-top :2%;
+  }
 
 }
 
