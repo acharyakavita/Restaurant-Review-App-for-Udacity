@@ -14,12 +14,12 @@ Udacity Restaurant Review App Stage 1 (FEND)
    # Starting the Server
    These are simply the instructions Udacity as provided below to get the application running on a simple Python based server, and then    get it opened in a browser. Assuming Python is on your system path, navigate to main folder of the project you downloaded or cloned      above and do the following:
 
-   a) Navigate to the main project folder and run the following in your terminal:
-   b) Python2.x: python -m SimpleHTTPServer 8000
-   c) Python3.x: python3 -m http.server 8000
-   d) Open a browser such as Chrome or FireFox to:
+   a. Navigate to the main project folder and run the following in your terminal:
+   b. Python2.x: python -m SimpleHTTPServer 8000
+   c. Python3.x: python3 -m http.server 8000
+   d. Open a browser such as Chrome or FireFox to:
       http://localhost:8000
-   e) Should be able to view and use the application.
+   e. Should be able to view and use the application.
    
 # Using the Application
 The Restaurant Review App is simple to use: You are provided with a map and filtering options. Select the neighborhood in New York City and the type of cuisine you are interested in from the drop down selectors. The options will be filtered based on your preferences, and the map will update as well with your selections. Once your options are provided below, as restaurant cards with a photo, you can select one to view more information. A full photo, a map, and all the reviews will be provided for the selected restaurant. There is a breadcrumb navigation near the top of this view to return to the selection screen. Easy as that!
